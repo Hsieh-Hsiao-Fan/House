@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.0",
+    "@pinia/nuxt": "^0.4.9",
+    "nuxt": "^3.3.1",
+    "pinia": "^2.0.35"
+  },
+  "dependencies": {
+    "@nuxtjs/proxy": "^2.1.0",
+    "axios": "^1.3.4",
+    "element-plus": "^2.3.0"
+  }
+}
